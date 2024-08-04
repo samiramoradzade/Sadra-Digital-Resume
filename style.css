@@ -35,8 +35,8 @@ img {
   }
 .icon-button {
     /* background-color: rgba(255, 255, 255, 0.8); */
-/*     width: 220px;
-    height:220px; */
+    width: 220px;
+    height:220px;
     border: 2px solid rgb(255, 255, 255);
     /* padding: 50px; */
     /* font-size: 30px; */
@@ -104,6 +104,8 @@ img {
         }
 
     .icon-button {
+        width: 100px;
+        height:100px;
         border: 1px solid rgb(255, 255, 255);
         text-align: center;
         display:table-row;
