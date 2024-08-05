@@ -86,7 +86,7 @@ img {
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     img {
-    width: 60%;
+    width: 70%;
     }
     .button-container {
         /* min-height: 50%; */
