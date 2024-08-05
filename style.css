@@ -28,19 +28,19 @@ img {
     row-gap: 1%;
     column-gap: 7%;
     justify-content:center;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     cursor:pointer;
     
   }
 .icon-button {
-    /* background-color: rgba(255, 255, 255, 0.8); */
     width: 220px;
     height:220px;
     border: 2px solid rgb(255, 255, 255);
     /* padding: 50px; */
     /* font-size: 30px; */
     text-align: center;
+    flex-direction: column;
     display:table-row;
     text-decoration:none;
     /* text-align: center; */
@@ -49,7 +49,7 @@ img {
 }
 
 .icon-button span {
-    position: relative;
+    /* position: relative; */
     font-family:"b_titrbold";
     font-weight: bolder;
     display: block;
@@ -88,57 +88,32 @@ img {
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     .button-container {
-        /* min-height: 50%; */
-        display: grid;
+/*         display: grid; */
         grid-template-columns:auto auto;
-        /* background-color: #2196F3; */
-        /* padding: 50px; */
         margin-right: 10%;
         margin-left: 10%;
         row-gap: 1%;
         column-gap: 5%;
-        justify-content:center;
-        flex-direction: column;
-        align-items: center;
-        cursor:pointer;
         }
 
     .icon-button {
-        width: 100px;
-        height:100px;
+        width: 140px;
+        height:140px;
         border: 1px solid rgb(255, 255, 255);
-        text-align: center;
-        display:table-row;
-        text-decoration:none;
-        transition: transform 0.3s ease;
+ 
         }
 
     .icon-button img {
-        width: 40%; /* Adjust size as needed */
-        height: 40%; /* Adjust size as needed */
-        /* border-radius: 10px; */
-        transition: transform 0.3s ease;
-        mix-blend-mode:normal;
-        background-color: transparent;
+        width: 45%; /* Adjust size as needed */
+        height: 45%; /* Adjust size as needed */
         }
 
     .icon-button span {
-        position: relative;
-        font-family:"b_titrbold";
-        font-weight: bolder;
-        display: block;
         margin-top: 5%; /* Space between image and text */
-        color: #ffffff; /* Text color */
-        font-size: 10px; /* Font size */
-        text-align: center;    
+        font-size: 10px; /* Font size */  
         }
     }
 
     .footer-text h1 {
-        font-family: "b_titrbold";
         font-size: 20px;
-        font-weight: bolder;
-        text-align: center;
-        color: #ffffff;
-        margin-bottom: 2%;
     }
