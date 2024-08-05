@@ -10,7 +10,7 @@ body {
 
   
 img {
-    width: 5%;
+    width: 50%;
     mix-blend-mode: normal;
     background-color: transparent;
     }
@@ -85,6 +85,9 @@ img {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
+    img {
+    width: 60%;
+    }
     .button-container {
         /* min-height: 50%; */
         display: grid;
