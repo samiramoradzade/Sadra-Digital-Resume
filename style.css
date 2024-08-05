@@ -86,7 +86,7 @@ img {
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     img {
-    width: 70%;
+    width: 80%;
     }
     .button-container {
         /* min-height: 50%; */
@@ -140,5 +140,5 @@ img {
         font-weight: bolder;
         text-align: center;
         color: #ffffff;
-        margin-bottom: 2%;
+/*         margin-bottom: 2%; */
     }
