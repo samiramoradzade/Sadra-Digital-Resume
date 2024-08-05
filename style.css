@@ -10,9 +10,9 @@ body {
 
   
 img {
-    width: 50%;
     mix-blend-mode: normal;
     background-color: transparent;
+    width: 50%;
     }
 
 
