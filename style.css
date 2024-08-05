@@ -34,8 +34,6 @@ img {
     
   }
 .icon-button {
-    width: 220px;
-    height:220px;
     border: 2px solid rgb(255, 255, 255);
     /* padding: 50px; */
     /* font-size: 30px; */
@@ -60,8 +58,8 @@ img {
     }
 
 .icon-button img {
-    width: 70%; /* Adjust size as needed */
-    height: 70%; /* Adjust size as needed */
+    width: 40%; /* Adjust size as needed */
+    height: 40%; /* Adjust size as needed */
     /* border-radius: 10px; */
     transition: transform 0.3s ease;
     mix-blend-mode:normal;
@@ -88,32 +86,56 @@ img {
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     .button-container {
-/*         display: grid; */
+        /* min-height: 50%; */
+        display: grid;
         grid-template-columns:auto auto;
+        /* background-color: #2196F3; */
+        /* padding: 50px; */
         margin-right: 10%;
         margin-left: 10%;
         row-gap: 1%;
         column-gap: 5%;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        cursor:pointer;
         }
 
     .icon-button {
-        width: 140px;
-        height:140px;
         border: 1px solid rgb(255, 255, 255);
+        text-align: center;
+        display:table-row;
+        text-decoration:none;
+        transition: transform 0.3s ease;
  
         }
 
     .icon-button img {
         width: 45%; /* Adjust size as needed */
         height: 45%; /* Adjust size as needed */
+        /* border-radius: 10px; */
+        transition: transform 0.3s ease;
+        mix-blend-mode:normal;
+        background-color: transparent;
         }
 
     .icon-button span {
+        position: relative;
+        font-family:"b_titrbold";
+        font-weight: bolder;
+        display: block;
         margin-top: 5%; /* Space between image and text */
-        font-size: 10px; /* Font size */  
+        color: #ffffff; /* Text color */
+        font-size: 10px; /* Font size */
+        text-align: center;    
         }
     }
 
     .footer-text h1 {
+        font-family: "b_titrbold";
         font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 2%;
     }
