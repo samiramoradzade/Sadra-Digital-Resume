@@ -66,6 +66,7 @@ img {
 }
 
 .icon-button span {
+    font-family: "BNazanin";
     position: relative;
     font-weight: bolder;
     display: block;
