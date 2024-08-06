@@ -1,10 +1,10 @@
 /* styles.css */
 @font-face {
     font-family: 'BNazanin';
-    src: url('/fonts/bnazanin/BNazanin.woff') format('woff'),
-    url('/fonts/bnazanin/BNazanin.woff2') format('woff2'),
-         url('/fonts/bnazanin/BNazanin.eot') format('eot'),
-         url('/fonts/bnazanin/BNazanin.ttf') format('truetype');
+    src: url('/fonts/BNazanin.woff') format('woff'),
+    url('/fonts/BNazanin.woff2') format('woff2'),
+         url('/fonts/BNazanin.eot') format('eot'),
+         url('/fonts/BNazanin.ttf') format('truetype');
   }
 
 /*@font-face {*/
